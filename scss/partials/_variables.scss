@@ -1,0 +1,61 @@
+// MY OWN VARIABLES
+$own-success: #5fcf80;
+$own-secondary: #fff;
+$own-lighter: #f7f7f7;
+$own-light: $gray-500;
+$own-navbar-height: 64px;
+$clickable-dimension: 45px;
+// COLORS
+$theme-colors: (
+  "success": $own-success,
+  "secondary": $own-secondary,
+  "light": $own-light,
+  "lighter": $own-lighter,
+);
+$yiq-contrasted-threshold: 175;
+$body-color: $gray-700;
+// BUTTONS
+// border-radius
+$btn-border-radius: 99rem;
+$btn-border-radius-sm: $btn-border-radius;
+$btn-border-radius-lg: $btn-border-radius;
+// border
+$btn-border-width: 2px;
+// padding
+$btn-padding-x: 1.5rem;
+$btn-padding-y: 0.25rem;
+$btn-padding-x-lg: 2rem;
+$btn-padding-y-lg: 0.3333rem;
+// SHADOWS
+$box-shadow: 0 0.125rem 1rem rgba($black, 0.1);
+// FONTS
+$font-family-base: "Open Sans", $font-family-sans-serif;
+$font-weight-base: 400;
+$font-weight-normal: $font-weight-base;
+$font-weight-bold: 600;
+$font-weight-light: 300;
+$headings-font-family: "Poppins", $font-family-sans-serif;
+$headings-font-weight: 700;
+// NAVBAR
+$navbar-light-toggler-icon-bg: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+$navbar-light-active-color: $own-success;
+$navbar-light-hover-color: $own-success;
+$navbar-light-color: $gray-600;
+// TRANSITION
+$transition-base: all 0.3s ease-in-out;
+$btn-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+  border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+// CONTAINER
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+);
+// ANCHORS
+$link-color: $body-color;
+$link-hover-color: theme-color("success");
+$link-hover-decoration: none;
+// INPUTS
+$component-active-bg: darken(theme-color("success"), 25%);
+$input-focus-border-color: lighten($component-active-bg, 25%);

@@ -1,0 +1,8 @@
+@import "../../../../bootstrap-4.3.1/scss/functions";
+@import "../../../../bootstrap-4.3.1/scss/variables";
+@import "../../../../bootstrap-4.3.1/scss/mixins";
+// customization start
+@import "./partials/variables";
+// customization end
+@import "../../../../bootstrap-4.3.1/scss/bootstrap";
+@import "./partials/index";
