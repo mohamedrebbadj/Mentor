@@ -4,6 +4,27 @@ span {
 .navbar.fixed-top + * {
   margin-top: $own-navbar-height;
 }
+.dropdown__submenu {
+  position: relative;
+  a {
+    // position: relative;
+    &::after {
+      transform: rotate(-90deg) translateY(-50%);
+      position: absolute;
+      right: 6px;
+      top: calc(50% - 3px);
+    }
+  }
+  .dropdown-toggle {
+    height: 100%;
+  }
+  .dropdown-menu {
+    top: 0;
+    left: 96%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+  }
+}
 // HERO
 .hero {
   background-image: url("../images/hero-bg.jpg");
@@ -126,4 +147,14 @@ $services-color: (
         bottom: 0;
         right: -19px;
     }
+}
+// MEDIA QUERIES
+#mentor-navbar {
+  a {
+   position: relative;
+   &::after {
+     position: relative;
+     right: -2px;
+   } 
+  }
 }

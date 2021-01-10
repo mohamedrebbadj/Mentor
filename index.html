@@ -46,8 +46,40 @@
             <li class="nav-item">
               <a href="./pricing.html" class="nav-link">Pricing</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Drop Down</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                aria-haspopup="true"
+                id="level1"
+                href="#"
+                >Level 1</a
+              >
+              <div class="dropdown-menu" aria-labelledby="level1">
+                <a class="dropdown-item" href="#">Dropdown Item 1</a>
+                <a class="dropdown-item" href="#">Dropdown Item 2</a>
+                <a class="dropdown-item" href="#">Dropdown Item 3</a>
+                <div class="dropdown-item dropdown__submenu">
+                  <a
+                    href="#"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    id="level2"
+                    >Dropdown Level 2</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Dropdown Item 1</a>
+                    <a href="#" class="dropdown-item">Dropdown Item 2</a>
+                    <a href="#" class="dropdown-item">Dropdown Item 3</a>
+                    <a href="#" class="dropdown-item">Dropdown Item 4</a>
+                    <a href="#" class="dropdown-item">Dropdown Item 5</a>
+                  </div>
+                </div>
+                <a href="#" class="dropdown-item">Dropdown Item 5</a>
+              </div>
             </li>
             <li class="nav-item">
               <a href="./contact.html" class="nav-link">Contact</a>
@@ -58,6 +90,7 @@
         <button
           class="navbar-toggler border-0"
           data-toggle="modal"
+          data-target="#mentor-navbar"
           aria-label="Toggle Navigation"
         >
           <span class="navbar-toggler-icon text-dark" aria-hidden="true"></span>
@@ -90,7 +123,7 @@
             <picture>
               <source srcset="./images/about.webp" type="image/webp" />
               <source srcset="./images/about.jpg" type="image/jpeg" />
-              <img src="./images/about.jpg" class="img-fluid mb-4" />
+              <img src="./images/about.jpg" class="img-fluid mb-4" alt="" />
             </picture>
           </div>
           <div class="col-lg-6 font-weight-normal">
@@ -136,7 +169,7 @@
                 >
               </li>
             </ul>
-            <p>
+            <p class="text-muted">
               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
               irure dolor in reprehenderit in voluptate
             </p>
@@ -173,8 +206,8 @@
     <!-- START WHY CHOOSE US SECTION -->
     <section class="why-us py-5" id="why-us">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
+        <div class="row align-items-stretch">
+          <div class="col-lg-4 d-flex align-items-stretch">
             <div class="card bg-success text-white border-0 p-2 mb-4">
               <div class="card-body">
                 <h2 class="mb-4 font-weight-bold">Why Choose Mentor ?</h2>
@@ -381,7 +414,8 @@
                         src="./images/trainers/trainer-1.jpg"
                         class="rounded-circle"
                         alt=""
-                        width="50" height="50"
+                        width="50"
+                        height="50"
                       />
                     </picture>
                     <h4 class="h6 m-0 font-weight-normal ml-3">Antonio</h4>
@@ -435,7 +469,8 @@
                         src="./images/trainers/trainer-2.jpg"
                         class="rounded-circle"
                         alt=""
-                        width="50" height="50"
+                        width="50"
+                        height="50"
                       />
                     </picture>
                     <h4 class="h6 m-0 font-weight-normal ml-3">Lana</h4>
@@ -489,7 +524,8 @@
                         src="./images/trainers/trainer-3.jpg"
                         class="rounded-circle"
                         alt=""
-                        width="50" height="50"
+                        width="50"
+                        height="50"
                       />
                     </picture>
                     <h4 class="h6 m-0 font-weight-normal ml-3">Antonio</h4>
@@ -509,8 +545,12 @@
     <!-- START TRAINERS SECTION -->
     <section class="trainers py-5" id="trainers">
       <div class="container">
-        <h2 class="section__heading text-light small text-uppercase mb-0">Trainers</h2>
-        <p class="section__subheading h2 text-uppercase mb-4 mb-lg-5">OUR PROFESSIONAL TRAINERS</p>
+        <h2 class="section__heading text-light small text-uppercase mb-0">
+          Trainers
+        </h2>
+        <p class="section__subheading h2 text-uppercase mb-4 mb-lg-5">
+          OUR PROFESSIONAL TRAINERS
+        </p>
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <div class="card rounded-0 mb-4">
@@ -540,22 +580,26 @@
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-twitter"></i
-                    ><span class="sr-only">twitter</span></a>
+                      ><span class="sr-only">twitter</span></a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-facebook"></i
-                    ><span class="sr-only">facebook</span></a>
+                      ><span class="sr-only">facebook</span></a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-instagram"></i
-                    ><span class="sr-only">instagram</span></a>
+                      ><span class="sr-only">instagram</span></a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-linkedin"></i
-                    ><span class="sr-only">linkedin</span></a>
+                      ><span class="sr-only">linkedin</span></a
+                    >
                   </li>
                 </ul>
               </div>
@@ -589,22 +633,26 @@
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-twitter"></i
-                    ><span class="sr-only">twitter</span></a>
+                      ><span class="sr-only">twitter</span></a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-facebook"></i
-                    ><span class="sr-only">facebook</span></a>
+                      ><span class="sr-only">facebook</span></a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-instagram"></i
-                    ><span class="sr-only">instagram</span></a>
+                      ><span class="sr-only">instagram</span></a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-linkedin"></i
-                    ><span class="sr-only">linkedin</span></a>
+                      ><span class="sr-only">linkedin</span></a
+                    >
                   </li>
                 </ul>
               </div>
@@ -638,22 +686,26 @@
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-twitter"></i
-                    ><span class="sr-only">twitter</span></a>
+                      ><span class="sr-only">twitter</span></a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-facebook"></i
-                    ><span class="sr-only">facebook</span></a>
+                      ><span class="sr-only">facebook</span></a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-instagram"></i
-                    ><span class="sr-only">instagram</span></a>
+                      ><span class="sr-only">instagram</span></a
+                    >
                   </li>
                   <li class="list-inline-item">
                     <a href="#" class="h5"
                       ><i class="fa fa-linkedin"></i
-                    ><span class="sr-only">linkedin</span></a>
+                      ><span class="sr-only">linkedin</span></a
+                    >
                   </li>
                 </ul>
               </div>
@@ -673,65 +725,175 @@
               <p class="mb-0 py-1">pA108 Adam Street</p>
               <p class="mb-0 py-1">New York, NY 535022</p>
               <p class="mb-4 py-1">United States</p>
-              <p class="mb-0 py-1"><b>Phone: </b><span>+1 5589 55488 55</span></p>
-              <p class="mb-0 py-1"><b>Email: </b><span>info@example.com</span></p>
+              <p class="mb-0 py-1">
+                <b>Phone: </b><span>+1 5589 55488 55</span>
+              </p>
+              <p class="mb-0 py-1">
+                <b>Email: </b><span>info@example.com</span>
+              </p>
             </address>
           </div>
           <div class="col-md-6 col-lg-2 mb-4 mb-md-0">
             <h3 class="h6">Useful Links</h3>
             <ul class="list-unstyled">
-              <li class="py-2"><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">Home</a></li>
-              <li class="py-2"><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">About us</a></li>
-              <li class="py-2"><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">Services</a></li>
-              <li class="py-2"><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">Term of services</a></li>
-              <li><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">Privacy policy</a></li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Home</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">About us</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Services</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Term of services</a>
+              </li>
+              <li>
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Privacy policy</a>
+              </li>
             </ul>
           </div>
           <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
             <h3 class="h6">Our Services</h3>
             <ul class="list-unstyled">
-              <li class="py-2"><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">Web Design</a></li>
-              <li class="py-2"><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">Web Developement</a></li>
-              <li class="py-2"><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">Services</a></li>
-              <li class="py-2"><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">Term of services</a></li>
-              <li class="py-2"><i aria-hidden="true" class="fa fa-chevron-right mr-2 text-success small"></i><a href="#" class="text-muted">Privacy policy</a></li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Web Design</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Web Developement</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Services</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Term of services</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Privacy policy</a>
+              </li>
             </ul>
           </div>
           <div class="col-md-6 col-lg-4">
             <h3 class="h6">Join Our Newsletter</h3>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>
+              Tamen quem nulla quae legam multos aute sint culpa legam noster
+              magna
+            </p>
             <form action="./index.html" class="inline-form" method="post">
               <label for="email" class="sr-only">Your Email</label>
-              <input type="email" class="form-control" name="email" id="email">
-                <button class="btn btn-success" type="submit">Subscribe</button>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+              />
+              <button class="btn btn-success" type="submit">Subscribe</button>
             </form>
           </div>
         </div>
       </div>
       <div class="copyright bg-dark mt-5 py-4">
-        <div class="container d-md-flex text-center text-md-left justify-content-between align-items-center">
+        <div
+          class="container d-md-flex text-center text-md-left justify-content-between align-items-center"
+        >
           <div class="copyright-text mb-3 mb-md-0 text-white">
-            <p class="mb-0">© Copyright <strong>Mentor</strong>. All Rights Reserved</p>
-            <p class="mb-0">Designed by <a href="#" class="text-success">BootstrapMade</a></p>
+            <p class="mb-0">
+              © Copyright <strong>Mentor</strong>. All Rights Reserved
+            </p>
+            <p class="mb-0">
+              Designed by <a href="#" class="text-success">BootstrapMade</a>
+            </p>
           </div>
           <div class="copyright-socials">
             <ul class="list-inline mb-0">
-              <li class="list-inline-item"><a href="#" class="btn clickable-media btn-success"><i class="fa fa-twitter"></i><span class="sr-only">Twitter</span></a></li>
-              <li class="list-inline-item"><a href="#" class="btn clickable-media btn-success"><i class="fa fa-facebook"></i><span class="sr-only">Facebook</span></a></li>
-              <li class="list-inline-item"><a href="#" class="btn clickable-media btn-success"><i class="fa fa-instagram"></i><span class="sr-only">Instagram</span></a></li>
-              <li class="list-inline-item"><a href="#" class="btn clickable-media btn-success"><i class="fa fa-skype"></i><span class="sr-only">Skype</span></a></li>
-              <li class="list-inline-item"><a href="#" class="btn clickable-media btn-success"><i class="fa fa-linkedin"></i><span class="sr-only">Linkedin</span></a></li>
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-twitter"></i
+                  ><span class="sr-only">Twitter</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-facebook"></i
+                  ><span class="sr-only">Facebook</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-instagram"></i
+                  ><span class="sr-only">Instagram</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-skype"></i
+                  ><span class="sr-only">Skype</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-linkedin"></i
+                  ><span class="sr-only">Linkedin</span></a
+                >
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
     <!-- END FOOTER -->
-    <!-- <a href="#" class="btn btn-success go-up"><span class="sr-only">Go up</span><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    <!-- <a href="#" class="btn btn-success position-fixed"><span class="sr-only">Go up</span><i class="fa fa-arrow-up" aria-hidden="true"></i></a> -->
     <div class="modal" tabindex="-1" role="navigation" id="mentor-navbar">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <button type="button" class="close text-right pt-2 pr-3" data-dismiss="modal" aria-label="Close"><span class="display-4" aria-hidden="true">&times;</span></button>
+          <button
+            type="button"
+            class="close text-right pt-2 pr-3"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span class="display-4" aria-hidden="true">&times;</span>
+          </button>
           <div class="modal-body">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
@@ -752,8 +914,40 @@
               <li class="nav-item">
                 <a href="./pricing.html" class="nav-link">Pricing</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Drop Down</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  id="level_1"
+                  href="#"
+                  >Level 1</a
+                >
+                <div class="dropdown-menu" aria-labelledby="level_1">
+                  <a class="dropdown-item" href="#">Dropdown Item 1</a>
+                  <a class="dropdown-item" href="#">Dropdown Item 2</a>
+                  <a class="dropdown-item" href="#">Dropdown Item 3</a>
+                  <div class="dropdown-item dropdown__submenu">
+                    <a
+                      href="#"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      id="level_2"
+                      >Dropdown Level 2</a
+                    >
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Dropdown Item 1</a>
+                      <a href="#" class="dropdown-item">Dropdown Item 2</a>
+                      <a href="#" class="dropdown-item">Dropdown Item 3</a>
+                      <a href="#" class="dropdown-item">Dropdown Item 4</a>
+                      <a href="#" class="dropdown-item">Dropdown Item 5</a>
+                    </div>
+                  </div>
+                  <a href="#" class="dropdown-item">Dropdown Item 5</a>
+                </div>
               </li>
               <li class="nav-item">
                 <a href="./contact.html" class="nav-link">Contact</a>
@@ -762,7 +956,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
