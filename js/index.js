@@ -18,4 +18,19 @@ $(function () {
 
     return false;
   });
+  let goUp = $(".goUp");
+  function showGoUp() {
+    if ($(window).scrollTop() > 999) {
+        goUp.fadeIn();
+    } else {
+        goUp.fadeOut();
+    }
+  }
+  goUp.on("click", function () {
+
+  });
+  $(window).on("scroll", function () {
+      console.log("blue");
+    showGoUp();
+  });
 });
