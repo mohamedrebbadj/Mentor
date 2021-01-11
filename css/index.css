@@ -12403,6 +12403,10 @@ span {
   vertical-align: middle;
 }
 
+iframe {
+  width: 100%;
+}
+
 .navbar.fixed-top + * {
   margin-top: 64px;
 }
