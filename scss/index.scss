@@ -5,39 +5,6 @@
 @import "./partials/variables";
 // customization end
 
- @import "../../../../bootstrap-4.3.1/scss/root";
- @import "../../../../bootstrap-4.3.1/scss/reboot";
- @import "../../../../bootstrap-4.3.1/scss/type";
- @import "../../../../bootstrap-4.3.1/scss/images";
-//  @import "code";
- @import "../../../../bootstrap-4.3.1/scss/grid";
-//  @import "tables";
- @import "../../../../bootstrap-4.3.1/scss/forms";
- @import "../../../../bootstrap-4.3.1/scss/buttons";
- @import "../../../../bootstrap-4.3.1/scss/transitions";
- @import "../../../../bootstrap-4.3.1/scss/dropdown";
- @import "../../../../bootstrap-4.3.1/scss/button-group";
- @import "../../../../bootstrap-4.3.1/scss/input-group";
-//  @import "custom-forms";
- @import "../../../../bootstrap-4.3.1/scss/nav";
- @import "../../../../bootstrap-4.3.1/scss/navbar";
- @import "../../../../bootstrap-4.3.1/scss/card";
-//  @import "breadcrumb";
-//  @import "pagination";
-//  @import "badge";
-//  @import "jumbotron";
-//  @import "alert";
-//  @import "progress";
- @import "../../../../bootstrap-4.3.1/scss/media";
-//  @import "list-group";
- @import "../../../../bootstrap-4.3.1/scss/close";
-//  @import "toasts";
- @import "../../../../bootstrap-4.3.1/scss/modal";
-//  @import "tooltip";
-//  @import "popover";
- @import "../../../../bootstrap-4.3.1/scss/carousel";
- @import "../../../../bootstrap-4.3.1/scss/spinners";
- @import "../../../../bootstrap-4.3.1/scss/utilities";
-//  @import "print";
+@import "../../../../bootstrap-4.3.1/scss/bootstrap.scss";
  
 @import "./partials/index";
