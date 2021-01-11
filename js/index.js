@@ -30,7 +30,6 @@ $(function () {
 
   });
   $(window).on("scroll", function () {
-      console.log("blue");
     showGoUp();
   });
 });
