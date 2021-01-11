@@ -12621,11 +12621,11 @@ span {
   right: -2px;
 }
 
-.details-title {
+.course-details .details__title {
   position: relative;
 }
 
-.details-title::after {
+.course-details .details__title::after {
   content: "";
   height: 1px;
   width: 100px;
@@ -12635,27 +12635,27 @@ span {
   left: 0;
 }
 
-.nav-link {
+.course-details .nav-link {
   position: relative;
 }
 
-.nav-link.active {
+.course-details .nav-link.active {
   color: #fff;
   background-color: #5fcf80;
 }
 
 @media (min-width: 992px) {
-  .nav-link {
+  .course-details .nav-link {
     border-right: 1px solid #ddd;
   }
-  .nav-link.active {
+  .course-details .nav-link.active {
     color: #5fcf80;
     background: #fff;
   }
-  .nav-link.active::after {
+  .course-details .nav-link.active::after {
     background-color: #5fcf80;
   }
-  .nav-link::after {
+  .course-details .nav-link::after {
     content: "";
     height: 100%;
     width: 4px;

@@ -168,44 +168,46 @@ $services-color: (
   }
 }
 // Course Details page
-.details-title {
-  position: relative;
-  &::after {
-    content: "";
-    height: 1px;
-    width: 100px;
-    background-color: theme-color("success");
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-  }
-}
-.nav-link {
-  position: relative;
-  &.active {
-    color: #fff;
-    background-color: theme-color("success");
-  }
-}
-@media (min-width: 992px) {
-  .nav-link {
-    border-right: 1px solid #ddd;
-    &.active {
-      color: theme-color("success");
-      background: #fff;
-      &::after {
-        background-color: theme-color("success");
-      }
-    }
+.course-details {
+  .details__title {
+    position: relative;
     &::after {
       content: "";
-      height: 100%;
-      width: 4px;
-      border-radius: 4px;
-      background-color: transparent;
+      height: 1px;
+      width: 100px;
+      background-color: theme-color("success");
       position: absolute;
-      right: -3px;
-      top: 0;
+      bottom: -1px;
+      left: 0;
+    }
+  }
+  .nav-link {
+    position: relative;
+    &.active {
+      color: #fff;
+      background-color: theme-color("success");
+    }
+  }
+  @media (min-width: 992px) {
+    .nav-link {
+      border-right: 1px solid #ddd;
+      &.active {
+        color: theme-color("success");
+        background: #fff;
+        &::after {
+          background-color: theme-color("success");
+        }
+      }
+      &::after {
+        content: "";
+        height: 100%;
+        width: 4px;
+        border-radius: 4px;
+        background-color: transparent;
+        position: absolute;
+        right: -3px;
+        top: 0;
+      }
     }
   }
 }
