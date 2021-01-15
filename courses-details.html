@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
@@ -99,7 +100,7 @@
     </nav>
     <!-- END NAVIGATION BAR -->
     <!-- START PAGE HEADER -->
-    <div class="page-header bg-success text-white text-center py-4 mb-5">
+    <div class="page-header bg-success text-white text-center py-4 mb-5" data-aos="fade-in">
       <div class="container">
         <h2 class="font-weight-normal">Course Details</h2>
         <p class="font-weight-light mb-0">
@@ -111,7 +112,7 @@
     </div>
     <!-- END PAGE HEADER -->
     <!-- START COURSE DETAILS -->
-    <div class="container mb-5 pb-4">
+    <div class="container mb-5 pb-4" data-aos="fade-up">
       <div class="row">
         <div class="col-lg-8">
           <picture>
@@ -160,7 +161,7 @@
         </div>
       </div>
     </div>
-    <div class="container mb-5 pb-lg-5 course-details">
+    <div class="container mb-5 pb-lg-5 course-details" data-aos="fade-up">
       <div class="row">
         <div class="col-lg-3">
           <div
@@ -664,6 +665,10 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/index.js"></script>
+    <script>
+      AOS.init({delay: 100, duration: 1000, once: true});
+    </script>
   </body>
 </html>
