@@ -32,4 +32,7 @@ $(function () {
   $(window).on("scroll", function () {
     showGoUp();
   });
+  // after the page load
+  $(".loader").remove();
+  $("body").css("overflow-y", "auto");
 });

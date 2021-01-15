@@ -60,12 +60,15 @@ $link-hover-decoration: none;
 $component-active-bg: darken(theme-color("success"), 25%);
 $input-focus-border-color: lighten($component-active-bg, 25%);
 // DROPDOWNS
-$dropdown-border-color:             transparent;
-$dropdown-border-radius:            10px;
-$dropdown-border-width:             0;
-$dropdown-link-active-color:        $own-success;
-$dropdown-link-active-bg:           transparent;
-$dropdown-box-shadow:               0px 0px 30px rgba(127, 137, 161, 0.25);
-$dropdown-item-padding-y:           .75rem;
+$dropdown-border-color: transparent;
+$dropdown-border-radius: 10px;
+$dropdown-border-width: 0;
+$dropdown-link-active-color: $own-success;
+$dropdown-link-active-bg: transparent;
+$dropdown-box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+$dropdown-item-padding-y: 0.75rem;
 // SHADOWS
 $enable-shadows: true;
+// SPINNER
+$spinner-width: 3.5rem;
+$spinner-height: $spinner-width;
