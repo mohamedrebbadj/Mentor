@@ -1,0 +1,16 @@
+{
+  "name": "mentor",
+  "version": "1.0.0",
+  "description": "html css and javascript template using bootstrap and jquery",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://github.com/mohamedrebbadj/mohamedamine",
+  "author": "mohamed amine",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "wowjs": "^1.1.3"
+  }
+}

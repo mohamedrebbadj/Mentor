@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="html css bootstrap and js template" />
+    <meta name="author" content="mohamed radhouane rebbadj" />
+    <meta
+      name="keywords"
+      content="html, html5, css, css3, bootstrap, bootstrap 4, elgant"
+    />
+    <title>Mentor</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- START NAVIGATION BAR -->
+    <nav class="navbar navbar-light bg-white navbar-expand-lg fixed-top shadow">
+      <div class="container">
+        <a href="./index.html" class="navbar-brand text-success"
+          ><h1 class="m-0 h2">Mentor</h1></a
+        >
+        <div class="navbar-collapse collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="./courses.html" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item active">
+              <a href="./trainers.html" class="nav-link">Trainers</a>
+            </li>
+            <li class="nav-item">
+              <a href="./events.html" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pricing.html" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                aria-expanded="false"
+                aria-haspopup="true"
+                id="level1"
+                href="#"
+                >Level 1</a
+              >
+              <div class="dropdown-menu" aria-labelledby="level1">
+                <a class="dropdown-item" href="#">Dropdown Item 1</a>
+                <a class="dropdown-item" href="#">Dropdown Item 2</a>
+                <a class="dropdown-item" href="#">Dropdown Item 3</a>
+                <div class="dropdown-item dropdown__submenu">
+                  <a
+                    href="#"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    id="level2"
+                    >Dropdown Level 2</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Dropdown Item 1</a>
+                    <a href="#" class="dropdown-item">Dropdown Item 2</a>
+                    <a href="#" class="dropdown-item">Dropdown Item 3</a>
+                    <a href="#" class="dropdown-item">Dropdown Item 4</a>
+                    <a href="#" class="dropdown-item">Dropdown Item 5</a>
+                  </div>
+                </div>
+                <a href="#" class="dropdown-item">Dropdown Item 5</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <a href="./courses.html" class="btn btn-success ml-lg-3">Get Started</a>
+        <button
+          class="navbar-toggler border-0"
+          data-toggle="modal"
+          data-target="#mentor-navbar"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon text-dark" aria-hidden="true"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- END NAVIGATION BAR -->
+    <!-- START PAGE HEADER -->
+    <div class="page-header bg-success text-white text-center py-4 mb-5">
+      <div class="container">
+        <h2 class="font-weight-normal">Trainers</h2>
+        <p class="font-weight-light mb-0">
+          Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia
+          id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam
+          aperiam consequatur laboriosam nemo harum praesentium.
+        </p>
+      </div>
+    </div>
+    <!-- END PAGE HEADER -->
+    <!-- START TRAINERS SECTION -->
+    <section class="trainers py-5" id="trainers">
+      <div class="container">
+        <h2 class="section__heading text-light small text-uppercase mb-0">
+          Trainers
+        </h2>
+        <p class="section__subheading h2 text-uppercase mb-4 mb-lg-5">
+          OUR PROFESSIONAL TRAINERS
+        </p>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-0 mb-4">
+              <picture>
+                <source
+                  srcset="./images/trainers/trainer-1.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/trainers/trainer-1.jpg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/trainers/trainer-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </picture>
+              <div class="card-body">
+                <h3 class="h5 mb-0">Walter White</h3>
+                <p class="small font-italic">Web Development</p>
+                <p class="text-muted font-italic">
+                  Magni qui quod omnis unde et eos fuga et exercitationem. Odio
+                  veritatis perspiciatis quaerat qui aut aut aut
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-twitter"></i
+                      ><span class="sr-only">twitter</span></a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-facebook"></i
+                      ><span class="sr-only">facebook</span></a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-instagram"></i
+                      ><span class="sr-only">instagram</span></a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-linkedin"></i
+                      ><span class="sr-only">linkedin</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-0 mb-4">
+              <picture>
+                <source
+                  srcset="./images/trainers/trainer-2.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/trainers/trainer-2.jpg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/trainers/trainer-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </picture>
+              <div class="card-body">
+                <h3 class="h5 mb-0">Sarah Jhinson</h3>
+                <p class="small font-italic">Marketing</p>
+                <p class="text-muted font-italic">
+                  Repellat fugiat adipisci nemo illum nesciunt voluptas
+                  repellendus. In architecto rerum rerum temporibus
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-twitter"></i
+                      ><span class="sr-only">twitter</span></a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-facebook"></i
+                      ><span class="sr-only">facebook</span></a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-instagram"></i
+                      ><span class="sr-only">instagram</span></a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-linkedin"></i
+                      ><span class="sr-only">linkedin</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card rounded-0 mb-4">
+              <picture>
+                <source
+                  srcset="./images/trainers/trainer-3.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/trainers/trainer-3.jpg"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/trainers/trainer-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </picture>
+              <div class="card-body">
+                <h3 class="h5 mb-0">William Anderson</h3>
+                <p class="small font-italic">Content</p>
+                <p class="text-muted font-italic">
+                  Voluptas necessitatibus occaecati quia. Earum totam
+                  consequuntur qui porro et laborum toro des clara
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-twitter"></i
+                      ><span class="sr-only">twitter</span></a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-facebook"></i
+                      ><span class="sr-only">facebook</span></a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-instagram"></i
+                      ><span class="sr-only">instagram</span></a
+                    >
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="h5"
+                      ><i class="fa fa-linkedin"></i
+                      ><span class="sr-only">linkedin</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TRAINERS SECTION -->
+    <!-- START FOOTER -->
+    <footer class="footer pt-5 bg-lighter" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+            <h2 class="font-weight-normal">Mentor</h2>
+            <address class="text-muted">
+              <p class="mb-0 py-1">pA108 Adam Street</p>
+              <p class="mb-0 py-1">New York, NY 535022</p>
+              <p class="mb-4 py-1">United States</p>
+              <p class="mb-0 py-1">
+                <b>Phone: </b><span>+1 5589 55488 55</span>
+              </p>
+              <p class="mb-0 py-1">
+                <b>Email: </b><span>info@example.com</span>
+              </p>
+            </address>
+          </div>
+          <div class="col-md-6 col-lg-2 mb-4 mb-md-0">
+            <h3 class="h6">Useful Links</h3>
+            <ul class="list-unstyled">
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Home</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">About us</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Services</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Term of services</a>
+              </li>
+              <li>
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+            <h3 class="h6">Our Services</h3>
+            <ul class="list-unstyled">
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Web Design</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Web Developement</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Services</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Term of services</a>
+              </li>
+              <li class="py-2">
+                <i
+                  aria-hidden="true"
+                  class="fa fa-chevron-right mr-2 text-success small"
+                ></i
+                ><a href="#">Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <h3 class="h6">Join Our Newsletter</h3>
+            <p>
+              Tamen quem nulla quae legam multos aute sint culpa legam noster
+              magna
+            </p>
+            <form action="./index.html" class="inline-form" method="post">
+              <label for="email" class="sr-only">Your Email</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+              />
+              <button class="btn btn-success" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright bg-dark mt-5 py-4">
+        <div
+          class="container d-md-flex text-center text-md-left justify-content-between align-items-center"
+        >
+          <div class="copyright-text mb-3 mb-md-0 text-white">
+            <p class="mb-0">
+              © Copyright <strong>Mentor</strong>. All Rights Reserved
+            </p>
+            <p class="mb-0">
+              Designed by <a href="#" class="text-success">BootstrapMade</a>
+            </p>
+          </div>
+          <div class="copyright-socials">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-twitter"></i
+                  ><span class="sr-only">Twitter</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-facebook"></i
+                  ><span class="sr-only">Facebook</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-instagram"></i
+                  ><span class="sr-only">Instagram</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-skype"></i
+                  ><span class="sr-only">Skype</span></a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn clickable-media btn-success"
+                  ><i class="fa fa-linkedin"></i
+                  ><span class="sr-only">Linkedin</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+    <a href="#" class="btn btn-success goUp"
+      ><span class="sr-only">Go up</span
+      ><i class="fa fa-arrow-up" aria-hidden="true"></i
+    ></a>
+    <div class="modal" tabindex="-1" role="navigation" id="mentor-navbar">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close text-right pt-2 pr-3"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span class="display-4" aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-body">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="./index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="./courses.html" class="nav-link">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="./trainers.html" class="nav-link">Trainers</a>
+              </li>
+              <li class="nav-item">
+                <a href="./events.html" class="nav-link">Events</a>
+              </li>
+              <li class="nav-item">
+                <a href="./pricing.html" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  id="level_1"
+                  href="#"
+                  >Level 1</a
+                >
+                <div class="dropdown-menu" aria-labelledby="level_1">
+                  <a class="dropdown-item" href="#">Dropdown Item 1</a>
+                  <a class="dropdown-item" href="#">Dropdown Item 2</a>
+                  <a class="dropdown-item" href="#">Dropdown Item 3</a>
+                  <div class="dropdown-item dropdown__submenu">
+                    <a
+                      href="#"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      id="level_2"
+                      >Dropdown Level 2</a
+                    >
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Dropdown Item 1</a>
+                      <a href="#" class="dropdown-item">Dropdown Item 2</a>
+                      <a href="#" class="dropdown-item">Dropdown Item 3</a>
+                      <a href="#" class="dropdown-item">Dropdown Item 4</a>
+                      <a href="#" class="dropdown-item">Dropdown Item 5</a>
+                    </div>
+                  </div>
+                  <a href="#" class="dropdown-item">Dropdown Item 5</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LOADER -->
+    <div class="loader d-flex align-items-center justify-content-center">
+      <div class="spinner-border spinner-border-lg text-success" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
